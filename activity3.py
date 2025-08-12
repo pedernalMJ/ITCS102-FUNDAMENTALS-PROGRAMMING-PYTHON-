@@ -1,0 +1,5 @@
+print("Happy\nWenesday")
+print("\tBsit 1A")
+print("Mark\rPedernal")
+print("Lazy \\Dog")
+print("\"Quick Fox\"")
