@@ -11,3 +11,17 @@ Repository of Computer Program developed in Python for our Subject ITCS102 - Fir
 - **Activity 7:** Using assignment operators to update variable values.
 - **Activity 8:** Comparing values with comparison operators (`>`, `<`, `==`, `!=`, `>=`, `<=`).
 - **Activity 9:** Combining conditions using logical operators (`and`, `or`, `not`).
+
+---
+
+## Activity Files
+
+- [Activity 1](activity1.py)
+- [Activity 2](activity2.py)
+- [Activity 3](activity3.py)
+- [Activity 4](activity4.py)
+- [Activity 5](activity5.py)
+- [Activity 6](activity6.py)
+- [Activity 7](activity7.py)
+- [Activity 8](activity8.py)
+- [Activity 9](activity9.py)
