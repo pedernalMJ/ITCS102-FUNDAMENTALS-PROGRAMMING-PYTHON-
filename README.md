@@ -11,6 +11,7 @@ Repository of Computer Program developed in Python for our Subject ITCS102 - Fir
 - **Activity 7:** Using assignment operators to update variable values.
 - **Activity 8:** Comparing values with comparison operators (`>`, `<`, `==`, `!=`, `>=`, `<=`).
 - **Activity 9:** Combining conditions using logical operators (`and`, `or`, `not`).
+- **Activity 10:** I have learned how to use conditional statements (if, elif, else) in Python.
 
 ---
 
@@ -25,3 +26,4 @@ Repository of Computer Program developed in Python for our Subject ITCS102 - Fir
 - [Activity 7](activity7.py)
 - [Activity 8](activity8.py)
 - [Activity 9](activity9.py)
+- [Activity 10](activity10.py)
