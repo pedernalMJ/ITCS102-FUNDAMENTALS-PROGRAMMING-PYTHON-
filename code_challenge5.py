@@ -1,50 +1,51 @@
 print("Welcome to the Manga Reader Recommender!")
 print("Answer a few questions to find your next read.")
 
-genre = input("What genre do you like? (action, romance, horror): ").lower()
-length = input("How long should the manga be? (short, medium, long): ").lower()
-decade = input("Which decade? (2000, 2010): ").lower()
+genre = input("What genre do you like? (action, romance, horror): ").lower().strip()
+length = input("How long should the manga be? (short, medium, long): ").lower().strip()
+decade = input("Which decade? (2000, 2010): ").lower().strip()
 
 print("\nSearching for", length, genre, "manga from the", decade, "...\n")
-#ACTION
+
 if genre == "action" and length == "short" and decade == "2000":
-    print("We recommend: Hikaru no Go")
+    print("We recommend: Black Cat, Rurouni Kenshin, Flame of Recca")
 elif genre == "action" and length == "short" and decade == "2010":
-    print("We recommend: One Punch Man")
+    print("We recommend: One Punch Man, Akame ga Kill, Blue Exorcist")
 elif genre == "action" and length == "medium" and decade == "2000":
-    print("We recommend: Fullmetal Alchemist")
+    print("We recommend: Fullmetal Alchemist, Gantz, D.Gray-man")
 elif genre == "action" and length == "medium" and decade == "2010":
-    print("We recommend: My Hero Academia")
+    print("We recommend: My Hero Academia, Magi, Noragami")
 elif genre == "action" and length == "long" and decade == "2000":
-    print("We recommend: Naruto or Bleach")
+    print("We recommend: Naruto, Bleach, Katekyo Hitman Reborn")
 elif genre == "action" and length == "long" and decade == "2010":
-    print("We recommend: Attack on Titan")
-#HORROR
+    print("We recommend: Attack on Titan, Fairy Tail, Hunter x Hunter")
+
 elif genre == "horror" and length == "short" and decade == "2000":
-    print("We recommend: Higurashi")
+    print("We recommend: Higurashi, Uzumaki, Goth")
 elif genre == "horror" and length == "short" and decade == "2010":
-    print("We recommend: Another")
+    print("We recommend: Another, I Am a Hero, Ajin")
 elif genre == "horror" and length == "medium" and decade == "2000":
-    print("We recommend: Death Note")
+    print("We recommend: Death Note, Monster, Elfen Lied")
 elif genre == "horror" and length == "medium" and decade == "2010":
-    print("We recommend: Tokyo Ghoul")
+    print("We recommend: Tokyo Ghoul, Paranoia Agent, Doubt")
 elif genre == "horror" and length == "long" and decade == "2000":
-    print("We recommend: Parasyte")
+    print("We recommend: Parasyte, Blade of the Immortal, Bastard!!")
 elif genre == "horror" and length == "long" and decade == "2010":
-    print("We recommend: The Promised Neverland")
-#ROMANCE
+    print("We recommend: The Promised Neverland, Deadman Wonderland, Terra Formars")
+
 elif genre == "romance" and length == "short" and decade == "2000":
-    print("We recommend: Lovely Complex")
+    print("We recommend: Lovely Complex, Fruits Basket, Itazura na Kiss")
 elif genre == "romance" and length == "short" and decade == "2010":
-    print("We recommend: Your Lie in April")
+    print("We recommend: Your Lie in April, Orange, Toradora")
 elif genre == "romance" and length == "medium" and decade == "2000":
-    print("We recommend: Boys Over Flowers")
+    print("We recommend: Boys Over Flowers, Peach Girl, Honey and Clover")
 elif genre == "romance" and length == "medium" and decade == "2010":
-    print("We recommend: Ao Haru Ride")
+    print("We recommend: Ao Haru Ride, Say I Love You, My Little Monster")
 elif genre == "romance" and length == "long" and decade == "2000":
-    print("We recommend: Kimi ni Todoke")
+    print("We recommend: Kimi ni Todoke, Kare Kano, Marmalade Boy")
 elif genre == "romance" and length == "long" and decade == "2010":
-    print("We recommend: Nana")
+    print("We recommend: Nana, Skip Beat!, Nodame Cantabile")
 
 else:
-    print("Sorry, no", length, genre, "manga from the", decade, "in our list pls pick others.")
+    print("Sorry, no", length, genre, "manga from the", decade, "in our list.")
+
