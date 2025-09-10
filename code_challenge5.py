@@ -6,7 +6,7 @@ length = input("How long should the manga be? (short, medium, long): ").lower()
 decade = input("Which decade? (2000, 2010): ").lower()
 
 print("\nSearching for", length, genre, "manga from the", decade, "...\n")
-
+#ACTION
 if genre == "action" and length == "short" and decade == "2000":
     print("We recommend: Hikaru no Go")
 elif genre == "action" and length == "short" and decade == "2010":
@@ -19,7 +19,7 @@ elif genre == "action" and length == "long" and decade == "2000":
     print("We recommend: Naruto or Bleach")
 elif genre == "action" and length == "long" and decade == "2010":
     print("We recommend: Attack on Titan")
-
+#HORROR
 elif genre == "horror" and length == "short" and decade == "2000":
     print("We recommend: Higurashi")
 elif genre == "horror" and length == "short" and decade == "2010":
@@ -32,7 +32,7 @@ elif genre == "horror" and length == "long" and decade == "2000":
     print("We recommend: Parasyte")
 elif genre == "horror" and length == "long" and decade == "2010":
     print("We recommend: The Promised Neverland")
-
+#ROMANCE
 elif genre == "romance" and length == "short" and decade == "2000":
     print("We recommend: Lovely Complex")
 elif genre == "romance" and length == "short" and decade == "2010":
