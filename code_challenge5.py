@@ -1,9 +1,9 @@
 print("Welcome to the Manga Reader Recommender!")
 print("Answer a few questions to find your next read.")
 
-genre = input("What genre do you like? (action, romance, horror): ").lower().strip()
-length = input("How long should the manga be? (short, medium, long): ").lower().strip()
-decade = input("Which decade? (2000, 2010): ").lower().strip()
+genre = input("What genre do you like? (action, romance, horror): ").lower()
+length = input("How long should the manga be? (short, medium, long): ").lower()
+decade = input("Which decade? (2000, 2010): ").lower()
 
 print("\nSearching for", length, genre, "manga from the", decade, "...\n")
 
