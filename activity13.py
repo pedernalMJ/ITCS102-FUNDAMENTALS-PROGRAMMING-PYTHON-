@@ -1,4 +1,4 @@
-total = 10
+total = 0
 for nim in range(1,11):  
     nim = eval(input("enter number"))
 
