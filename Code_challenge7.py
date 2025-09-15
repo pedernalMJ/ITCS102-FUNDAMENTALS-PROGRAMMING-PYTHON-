@@ -1,3 +1,4 @@
+#Sir check MONA LANG HISTORY DIPO AKO NANG GAYA 5 HOURS AGO KO PAPO TO GINAWA 
 print("ODD NUMBER SUMMATION")
 num = eval(input("Enter a number: "))
 
