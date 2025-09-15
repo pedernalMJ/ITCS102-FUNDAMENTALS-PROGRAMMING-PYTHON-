@@ -1,5 +1,5 @@
 print("ODD NUMBER SUMMATION")
-num = int(input("Enter a number: "))
+num = eval(input("Enter a number: "))
 
 oddsum = 0
 
