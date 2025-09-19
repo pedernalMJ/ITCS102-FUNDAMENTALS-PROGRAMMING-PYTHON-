@@ -2,7 +2,7 @@
 #ign2 = 'juben'
 #ign3 = 'pedernal'
 
-#print("my name is", name1," ", name2," ", name3)
+#print("my name is", ign1," ", ign2," ", ign3)
 #print(f"my name is {name1} {name2} {name3}")
 
 odd = 0
