@@ -2,7 +2,7 @@
 Repository of Computer Program developed in Python for our Subject ITCS102 - First Year First Semester
 ## Activities and What I Learned
 
-- **Activity 1:** Displaying text using `print()`.(activity1.py)
+- **Activity 1:** Displaying text using `print()`.[activity1.py]
 - **Activity 2:** Getting user input and combining it with output using f-strings.(activity2.py)
 - **Activity 3:** Formatting text with escape characters (`\n`, `\t`, `\\`, `\"`).(activity3.py)
 - **Activity 4:** Counting the number of characters in a string with `len()`.(activity4.py)
