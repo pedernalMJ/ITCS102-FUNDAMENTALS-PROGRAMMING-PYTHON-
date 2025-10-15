@@ -4,8 +4,8 @@ print("++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 print("ODD number compiler, type 0 to terminate the loop")
 oddsum = 0
 odd = ""
-t = True
-while t == True:
+
+while True:
     num = eval(input("Enter number-->"))
     if num == 0:
         print("terminated loop")
@@ -19,4 +19,5 @@ while t == True:
         print("invalid number")
         continue
 print(f"Hi {name}, The sum of all ODD number is {oddsum}")
+
 print(f"All the ODD numbers you input is {odd}")
