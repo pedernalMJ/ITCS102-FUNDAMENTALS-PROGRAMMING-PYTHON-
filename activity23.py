@@ -5,7 +5,7 @@ months.append("aug")
 print(months)
 
 # remove last item
-months.pop(1)
+months.pop()
 print(months)
 
 # remove a specific item
@@ -32,4 +32,5 @@ for m in months:
 fullname = 'mark juben pedernal'
 
 # #list slicing / reverse name
+
 print(fullname[::-1])
