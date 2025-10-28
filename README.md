@@ -14,7 +14,7 @@ Repository of Computer Program developed in Python for our Subject ITCS102 - Fir
 - Activity 10: The use of conditional statements (if, elif, else) in Python. [activity10.py](activity10.py)
 - Activity 11: Continuation of the use of conditional stament(exercises). [activity11.py](activity11.py)
 - Activity 12: Introduction to for loop (start,stop,step). [activity12.py](activity12.py)
-- Activity 13: Compute the sum of 10 user-inputted numbers using a for loop. (activity13.py)                           
+- Activity 13: Compute the sum of 10 user-inputted numbers using a for loop. [activity13.py](activity13.py)                        
 -Activity 14: Display numbers from 20 down to 1 using a reverse for loop. activity14.py
 -Activity 15: Input 10 numbers and find the sum of all odd numbers. activity15.py
 -Activity 16: Print numbers from 1 to 10 in a single line. activity16.py
