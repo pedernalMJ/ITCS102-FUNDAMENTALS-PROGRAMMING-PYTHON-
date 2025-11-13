@@ -1,5 +1,5 @@
 from activity25_1 import *
-
+from activity25_2 import *
 
 # Creating a Menu with While Loop and Functions
 name = input("Hi, what is your name --> ")
@@ -35,4 +35,5 @@ while isContinue:
         break
     else:
         print("Invalid option! Please try again.")
+
 
