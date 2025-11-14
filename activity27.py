@@ -9,8 +9,10 @@ def print_anime():
 
 def search_anime(ij):
     print("Searching anime in dictionary")
-    for ij in empty_dictionary:
+    if ij in empty_dictionary:
         print(f"result shows {empty_dictionary[ij]}")
+    else:
+        print("Anime not found.")
     
 
 while True:
