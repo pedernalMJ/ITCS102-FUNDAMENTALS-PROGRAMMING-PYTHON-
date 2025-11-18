@@ -8,7 +8,7 @@ student_records = {}
 
 while True: 
     print("Select from the options: \nA - Add Information\nB - Search a Record\nC - Delete a Record\nD - Modify a Record\nE - Exit\nP - Print All ")
-    print("MUST BE CAPITALIZED")
+    
     choice = input("Your Choice - - - - > ")
 
     if choice == 'A':
