@@ -47,8 +47,8 @@ while True:
                 print("=====================")
                 for i in student_records[search_id]:
                     print(f"-- {i}")
-        else:
-            print("no record found")
+            else:
+                print("no record found")
         pass
         continue
     elif choice == 'D':
