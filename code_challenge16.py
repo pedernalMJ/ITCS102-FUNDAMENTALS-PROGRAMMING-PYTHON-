@@ -118,7 +118,7 @@ while True:
 
         
     
-    elif choice == "x":
+    elif choice == "X":
             
             print("existing")
             break
