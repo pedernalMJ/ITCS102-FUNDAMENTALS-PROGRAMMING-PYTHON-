@@ -1,4 +1,4 @@
-amount = int(input("Enter amount to deposit: "))
+amount = eval(input("Enter amount to deposit: "))
 
 #MAS EASY KUNG LOOP PARA DI MANUAL
 count = amount // 1000
@@ -44,5 +44,6 @@ print(f"{count} × 5")
 count = amount // 1
 amount %= 1
 print(f"{count} × 1")
+
 
 
